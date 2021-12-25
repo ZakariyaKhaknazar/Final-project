@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+ 
+  <title>kz</title>
+</head>
+<body>
+  
+<header>
+  <div class="logo">
+    <a href="index.html"><img class="graphiclogo" src="img/logo.jpg" alt="logo"></a>
+</div>
+<button onclick="show('block')" class="regButton">Register</button>
+<div onclick="show('none')" id="gray"></div>
+<div id="window">
+    <!-- Картинка крестика -->
+    <img class="close" src="img/close.png" alt=""  onclick="show('none')">
+    <div class="form">
+        <h2>Register</h2>
+        <form action="index.html" name="f1">
+            <input type="text" placeholder="Name" name="name1" class="input">
+            <input type="text" placeholder="Surname" name="name2" class="input">
+            <input type="text" placeholder="E-mail" name="email1" class="input">
+            <input autocomplete="off" type="email" placeholder="Verify your e-mail" name="email2" class="input">
+            <input type="password" placeholder="Password" name="pass1" class="input">
+            <input type="password" placeholder="Confirm your password" name="pass2" class="input">
+            <input type='tel' placeholder="Mobile number" name="tel" class="input">
+            
+            <input type="radio" name="radio1"> Male <input type="radio" name="radio1" class="radio"> Female
+            <input type="submit" value="Register" name="sab" class="input">
+            <h2 class="photo">Your photo</h2>
+            <input type="file" multiple><br>
+             By clicking "Register", you confirm that you have read and agree to our Terms of Use and Privacy Policy.
+        </form>
+    </div>
+</div>
+          
+
+    <nav>
+      <div class="topnav" id="myTopnav">
+
+        <a href="index.html">HOME</a>
+        <a href="traditions.html">TRADITIONS</a>
+        <a href="history.html">HISTORY</a>
+        <a href="people.html">PEOPLE</a>
+        <a href="land.html">LAND</a>
+        <a href="economy.html">ECONOMY</a>
+        <a id="menu" href="#" class="icon">&#9776;</a>
+
+      </div>
+    </nav>
+
+</header>
+ <div style="overflow-x: auto;">
+<content>
+  <h1></h1>
+<div class="slideshow-container">
+
+ <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img/astana2.jpg" style="width:100%">
+    <div class="text">Astana</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/char.jpg" style="width:100%">
+    <div class="text">Charyn canyon</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/bor.jpg" style="width:100%">
+    <div class="text">Borovoe</div>
+  </div>
+    <div class="mySlides fade">
+    <img src="img/altyn.jpg" style="width:100%">
+    <div class="text">Altyn-Emel National Park</div>
+  </div>
+  </div>
+
+<center><div class="text2">
+
+  <ol>
+  <p> <li> <b>Kazakhstan</b>, also spelled Kazakstan, officially Republic of Kazakhstan, Kazakh Qazaqstan Respublikasï, country of Central Asia. It is bounded on the northwest and north by Russia, on the east by China, and on the south by Kyrgyzstan, Uzbekistan, the Aral Sea, and Turkmenistan; the Caspian Sea bounds Kazakhstan to the southwest. Kazakhstan is the largest country in Central Asia and the ninth largest in the world.</li> <li>Between its most distant points, Kazakhstan measures about 1,820 miles (2,930 kilometres) east to west and 960 miles north to south. While Kazakhstan was not considered by authorities in the former Soviet Union to be a part of Central Asia, it does have physical and cultural geographic characteristics similar to those of the other Central Asian countries. </li> <li>The capital is Nur-Sultan (formerly Astana, Aqmola, and Tselinograd), in the north-central part of the country. Kazakhstan, formerly a constituent (union) republic of the U.S.S.R., declared independence on December 16, 1991. </li></p>
+</ol>
+</div>
+</center>
+<center>
+<div id="app">
+    <h2 ref="header">Welcome!</h2>
+
+</div>
+</center>
+
+
+  <script src="js/script.js"></script> 
+  
+</body>
+</html>
